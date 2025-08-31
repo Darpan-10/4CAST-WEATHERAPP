@@ -1,12 +1,44 @@
-# React + Vite
+# 🌤️ 4CAST Weather App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather forecasting web application built with **React.js**, **Tailwind CSS**, **Firebase Authentication**, and the **OpenWeather API**.  
+It provides real-time weather updates, a 5-day forecast, and detailed highlights such as temperature, wind speed, humidity, and pressure.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- 🌍 Search weather by city  
+- 🌡️ Real-time weather details (temperature, feels-like, conditions)  
+- 📅 5-day forecast with weather icons  
+- ⏰ Hourly weather updates  
+- 🔑 Firebase authentication (Sign Up / Sign In)  
+- 🎨 Modern responsive UI with Tailwind CSS  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+- **Frontend**: React.js (Vite)  
+- **Styling**: Tailwind CSS  
+- **Authentication**: Firebase Auth  
+- **API**: [OpenWeather API](https://openweathermap.org/api)  
+
+---
+
+## ⚡ Setup Instructions (All in One)  
+
+Follow these steps to run the project locally:  
+
+```bash
+# 1️⃣ Clone the repository
+git clone git@github.com:Darpan-10/4CAST-WEATHERAPP.git
+cd 4CAST-WEATHERAPP
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Create a .env file in the root directory and add:
+# (replace with your own API keys)
+VITE_OPENWEATHER_API_KEY=your_openweather_api_key
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+
+# 4️⃣ Run the development server
+npm run dev
