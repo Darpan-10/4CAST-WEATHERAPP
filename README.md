@@ -22,6 +22,12 @@ It provides real-time weather updates, a 5-day forecast, and detailed highlights
 - **API**: [OpenWeather API](https://openweathermap.org/api)  
 
 ---
+## 📸 Preview  
+
+![App Screenshot](./screenshot.png)  
+
+
+---
 
 ## ⚡ Setup Instructions (All in One)  
 
